@@ -34,5 +34,7 @@ The design follows the classic pipeline stages — Instruction Fetch (IF), Instr
 ## Learning Outcomes
 - Practical understanding of CPU microarchitecture and pipelining.  
 - Experience implementing hazard detection and forwarding logic.  
-- Hands-on verification using open-source tools (Icarus Verilog + GTKWave).  
+- Hands-on verification using open-source tools (Icarus Verilog + GTKWave).
+## Acknowledgments
+This project is based in part on govardhnn / RISC_V_Single_Cycle_Processor (MIT License). Significant modifications have been made, including pipeline integration, hazard detection & forwarding, and custom testbenches.
 *This project demonstrates the fundamentals of computer architecture and serves as a solid reference for learners exploring pipelined CPU design in Verilog.*
