@@ -1,10 +1,10 @@
 # 32-bit 5-Stage Pipelined RISC-V CPU (RV32I)
 32-bit 5-stage pipelined RISC-V CPU (RV32I) in Verilog HDL. Supports ADD, SUB, AND, OR, LW, SW, BEQ, BNE with hazard handling (forwarding, stalls, flushes). Verified using testbenches and GTKWave, achieving CPI ≈ 1.0 on hazard-free execution.
-# Overview
+## Overview
 This project implements a 32-bit, 5-stage pipelined RISC-V CPU (RV32I) in Verilog HDL.  
 The design follows the classic pipeline stages — Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory (MEM), and Write Back (WB).
 
-# Features
+## Features
 - Supports a subset of RV32I instructions:
   - Arithmetic/Logical: ADD, SUB, AND, OR  
   - Memory: LW, SW  
@@ -15,17 +15,17 @@ The design follows the classic pipeline stages — Instruction Fetch (IF), Instr
   - One-cycle flush for branch hazards  
 - Achieves CPI ≈ 1.0 for hazard-free execution
 
-# Verification
+## Verification
 - Directed test programs were loaded into instruction memory via `$readmemh`.  
 - Functionality verified by simulating with Icarus Verilog (`iverilog` + `vvp`).  
 - Waveforms analyzed in GTKWave for cycle-accurate inspection of pipeline behavior.
 
-# Tools Used
+## Tools Used
 - Verilog HDL  
 - Icarus Verilog (simulation)  
 - GTKWave (waveform analysis)
 
-# Repository Structure
+## Repository Structure
 - `src/` → Verilog source files (datapath, control, hazard units)  
 - `tb/` → Testbenches  
 - `programs/` → Test programs in hex format  
