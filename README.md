@@ -20,18 +20,18 @@ The design follows the classic pipeline stages — Instruction Fetch (IF), Instr
 - Functionality verified by simulating with Icarus Verilog (`iverilog` + `vvp`).  
 - Waveforms analyzed in GTKWave for cycle-accurate inspection of pipeline behavior.
 
-## Tools Used
+# Tools Used
 - Verilog HDL  
 - Icarus Verilog (simulation)  
 - GTKWave (waveform analysis)
 
-## Repository Structure
+# Repository Structure
 - `src/` → Verilog source files (datapath, control, hazard units)  
 - `tb/` → Testbenches  
 - `programs/` → Test programs in hex format  
 - `docs/` → Block diagrams and waveform captures  
 
-## Learning Outcomes
+# Learning Outcomes
 - Practical understanding of CPU microarchitecture and pipelining.  
 - Experience implementing hazard detection and forwarding logic.  
 - Hands-on verification using open-source tools (Icarus Verilog + GTKWave).  
