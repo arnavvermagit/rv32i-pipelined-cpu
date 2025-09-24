@@ -36,7 +36,7 @@ The design follows the classic pipeline stages — Instruction Fetch (IF), Instr
 
 ## Simulation Output
 Example GTKWave simulation of the RV32I CPU executing an `ADD` instruction:
-![GTKWave ADD](docs/gtkwave_add.png)
+![Branch Waveform](docs/branch_waveform.png)
 
 ## Learning Outcomes
 - Practical understanding of CPU microarchitecture and pipelining.  
