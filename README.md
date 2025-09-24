@@ -29,7 +29,14 @@ The design follows the classic pipeline stages — Instruction Fetch (IF), Instr
 - `src/` → Verilog source files (datapath, control, hazard units)  
 - `tb/` → Testbenches  
 - `programs/` → Test programs in hex format  
-- `docs/` → Block diagrams and waveform captures  
+- `docs/` → Block diagrams and waveform captures
+  
+## Block Diagram
+![Pipeline Block Diagram](docs/pipeline_diagram.png)
+
+## Simulation Output
+Example GTKWave simulation of the RV32I CPU executing an `ADD` instruction:
+![GTKWave ADD](docs/gtkwave_add.png)
 
 ## Learning Outcomes
 - Practical understanding of CPU microarchitecture and pipelining.  
