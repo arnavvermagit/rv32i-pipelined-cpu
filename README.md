@@ -29,7 +29,7 @@ The design follows the classic pipeline stages — Instruction Fetch (IF), Instr
 - `src/` → Verilog source files (datapath, control, hazard units)  
 - `tb/` → Testbenches  
 - `programs/` → Test programs in hex format  
-- `docs/` → Block diagrams and waveform captures
+- `docs/` → Block diagram and waveform capture
   
 ## Block Diagram
 ![Pipeline Block Diagram](docs/pipeline_diagram.png)
